@@ -15,6 +15,30 @@ function drawSnake(x,y){
 }
 //drawSnake(0,0);
 document.addEventListener("keydown",dirControl);
+document.getElementById("up").onclick=callUp;
+function callUp(){
+    if( dir!="down"){
+        dir="up";
+    }
+}
+document.getElementById("down").onclick=callDown;
+function callDown(){
+    if( dir!="up"){
+        dir="down";
+    }
+}
+document.getElementById("right").onclick=callRight
+function callRight(){
+    if( dir!="left"){
+        dir="right";
+    }
+}
+document.getElementById("left").onclick=callLeft;
+function callLeft(){
+    if( dir!="right"){
+        dir="left";
+    }
+}
 var len=4;
 var snake=[]
 for(var i=len-1;i>=0;i--){
