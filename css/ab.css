@@ -143,6 +143,11 @@ background-color: white;
         
   
     }
+    body{
+        overflow-x: hidden;
+        background-size: cover;
+        background-image: url("../images/pexels-simon-matzinger-1323550.jpg");
+    }
     .logo-container{
         margin-top: 20px;
     }
