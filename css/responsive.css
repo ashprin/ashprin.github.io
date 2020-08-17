@@ -75,7 +75,7 @@
 
     .bottom-logo-container{
         display: grid;
-        grid-template-columns: repeat(4,150px);
+        grid-template-columns: repeat(2,150px);
         grid-column-gap: 10px;
         grid-row-gap: 20px;
     }
@@ -115,7 +115,7 @@
       }
       .bottom-logo-container{
         display: grid;
-        grid-template-columns: repeat(3,150px);
+        grid-template-columns: repeat(2,150px);
         grid-column-gap: 10px;
         grid-row-gap: 20px;
     }
