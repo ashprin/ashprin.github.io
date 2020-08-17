@@ -61,6 +61,7 @@ header{
     color: white;
 }
 .feedback-card{
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
