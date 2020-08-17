@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="css/fed.css"></link>
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img class="logo-image"  src="images/prompt_logo.jpeg" alt="logo">
+                <p>Prompt</p>
+            </div>
+            <div class="nav-links">
+                <ul class="nav-link">
+                    <li><a class="nav-item"href="index.html">Home</a></li>
+                    <li><a class="nav-item"href="about.html">About</a></li>
+                    <li><a class="nav-item"href="contact.html">Contact</a></li>
+    
+                      <li><a class="nav-item"href="feedback.html">feedback</a></li>
+    
+                </ul>
+            </div>
+
+        </header>
+<div class="feedback-section">
+    <div class="feedback-card">
+<form action="submit">
+  <div class="feedback-type">
+      <p>Feedback type</p>
+  </div>
+   <div class="radio-buttons">
+    <input type="radio" name="Comment" id="comment"> Comment</input>
+    
+    <input type="radio" name="Comment" id="comment">Question </input>
+   </div>
+   <div class="feedback-description">
+       <p>Describe</p>
+   </div>
+    <div class="describe-text">
+        <textarea type="textarea"id="decribe" name="decribe"  placeholder="Describe...." ></textarea>
+    </div>
+    <div class="enter-name">
+        <p>Name</p>
+    </div>
+    <div class="enter-name-text">
+        <input type="text" name="first-name" id="first-name" placeholder="first name">
+        <input type="text" name="last-name" id="last-name"  placeholder="last name">
+
+    </div>
+    <div class="emai-detail">
+        <p>Enter email</p>
+    </div>
+    <div class="email-text-sec">
+        <input type="email" name="email-t" id="email" placeholder="enter email">
+    </div>
+    <div class="submit-button">
+        <input type="button" id="submit" value="submit" onmousedown="mDown(this)" onmouseup="mUp(this)">
+    </div>
+    
+</form>
+    </div>
+</div>
+    </body>
+    <script src="../js/feedback.js"></script>
+</html>

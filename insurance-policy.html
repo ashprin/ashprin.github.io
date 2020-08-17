@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/ip.css"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img class="logo-image"  src="images/prompt_logo.jpeg" alt="logo">
+                <p>Prompt</p>
+            </div>
+            <div class="nav-links">
+                <ul class="nav-link">
+                    <li><a class="nav-item"href="index.html">Home</a></li>
+                    <li><a class="nav-item"href="about.html">About</a></li>
+                    <li><a class="nav-item"href="contact.html">Contact</a></li>
+                    <li><a class="nav-item"href="feedback.html">feedback</a></li>
+                </ul>
+            </div>
+            </header>
+            <div class="policy-card">
+                <div class="policy-title">
+                    <p>Health Insurance</p>
+                </div>
+
+                <div class="policy-subtitle">
+                    <p> As per the policy variant also the policy coverage will vary. Higher the sum insured, maximum will be the coverage offered by the plan. You can choose the sum insured according to the personal pocket size and the need. Personal health status and the related need must be the concern for all. Keeping that in mind the choice of the health cover must be made. 
+                        Policy coverage is also affected by the feature like deductibles, exclusions, copayment and sub- limit. All these must be checked before making any final decision. There might be numerous health plans available in health insurance market but they all have varied services to offer. Thus, close study to all of them is extremely important. Pertaining to personal medical care needs, the search must be channelized and chosen. The best way to pick the most suitable one is to compare the plans. It will assist in short listing the plan that can offer comprehensive coverage.</p>
+                </div>
+                <div class="apply-for-policy">
+                    <button id="policy_app" onmousedown="change_display()" onmousedown="mDown(this)" onmouseup="mUp(this)" >Apply for this policy</button>
+                </div>
+                    <div class="policy-form" id="policy-form">
+                        <form action="#">
+                            <div class="enter-name">
+                                <p>Name</p>
+                            </div>
+                            <div class="enter-name-text">
+                                <input class="input" type="text" name="first-name" id="first-name" placeholder="first name">
+                                <input class="input" type="text" name="last-name" id="last-name"  placeholder="last name">
+                        
+                            </div>
+                            <div class="emai-detail">
+                                <p>Enter phone number</p>
+                            </div>
+                            <div class="enter-name-text">
+                                <input class="input" type="text" name="number" id="phone-number"  placeholder="enter phone number">
+                            </div>
+                            <div class="emai-detail">
+                                <p>Enter email</p>
+                            </div>
+                            <div class="email-text-sec">
+                                <input class="input" type="email" name="email-t" id="email" placeholder="enter email">
+                            </div>
+
+                            <div class="submit-button">
+                                <input type="button" id="submit" value="submit" onmousedown="mDown(this)" onmouseup="mUp(this)">
+                            </div>
+                        </form>
+                    </div>
+
+            </div>
+    </body>
+    <script src="../js/ip.js"></script>
+</html>
